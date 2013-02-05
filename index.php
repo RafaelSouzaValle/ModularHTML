@@ -15,7 +15,7 @@
 <?php include ('header.php'); ?>
 
 <div id="intro">
-	<p>ModularHTML é um guia de estilo para código HTML semântico e padronizado</p>
+	<p>ModularHTML é um repositório de código para agilizar, aperfeiçoar e padronizar a produção de páginas web</p>
 	<div class="links">
 		<ul>
 			<li><a class="acessar" title="Acessar" href="demo.php">Acessar</a></li>

@@ -285,14 +285,17 @@ Amarelo				#dfb417
 /*@2.03.navigation-pagination*/
 
 /*@2.04.navigation-breadcrumbs*/
-#breadcrumbs ul li {
-	float:left;
-	padding: 0 10px 0 30px;
-	background:url(http://placehold.it/16x16) no-repeat left center;
+.site-breadcrumbs ul li{
+        float:left;
+        padding: 0 10px 0 30px;
+        background:url(http://placehold.it/16x16) no-repeat left center;
 }
-#breadcrumbs ul li.inicio {
-	padding: 0 10px 0 0;
-	background:none;
+.site-breadcrumbs ul .startpage {
+        padding: 0 10px 0 0;
+        background:none;
+}
+.site-breadcrumbs ul .current {
+	font-height:bold;
 }
 /*@2.04.navigation-breadcrumbs*/
 

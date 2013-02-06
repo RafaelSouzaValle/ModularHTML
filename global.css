@@ -200,7 +200,7 @@ Amarelo				#dfb417
 .site-navigation > .horizontal > li a.sub {
 	background:#82bfb5 url(modulos/2.01.navigation-horizontal-dropdown/img/seta.png) no-repeat scroll 95% 17px;
 }
-.site-navigation > .horizontal > li > .sub:hover {	
+.site-navigation > .horizontal > li > a.sub:hover {	
 	background-position:95% -9px;
 }
 .site-navigation > .horizontal > li:hover > .sub-menu {
@@ -247,6 +247,9 @@ Amarelo				#dfb417
 .site-navigation > .vertical > li {
 	list-style-type:none;
 	border-bottom: 1px solid #99d0c7;
+}
+.site-navigation > .vertical .sub-menu > li:last-child {
+	border-bottom: none;
 }
 .site-navigation > .vertical .sub-menu li a {
 	text-align:right;

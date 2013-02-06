@@ -1,4 +1,4 @@
 <footer>
 	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-	<p class="copyRight">Copyright © 2013 A2 Comunicação</p>
+	<p class="copyRight">Copyright &copy; 2013 Nome do Cliente</p> <!-- UTF8:  © -->
 </footer>

@@ -137,8 +137,8 @@ footer a:visited 		 { color: #666; }
 
 .modulo .syntaxhighlighter { font-size: 0.9em !important; max-height:300px; overflow-y:scroll; }
 
-.pagination{padding: 20px; border-top:2px dotted #DDD;}
-.pagination a{font-size:12px; padding:5px;}
+.site-pagination{padding: 20px; border-top:2px dotted #DDD;}
+.site-pagination a{font-size:12px; padding:5px;}
 /* @end index */
 
 /* CORES */

@@ -1,5 +1,5 @@
 <nav class="site-navigation">  
-    <ul id="nav-primary2" class="menu vertical">     
+    <ul id="nav-primary" class="menu vertical">     
         <li><a href="#">Item 1</a></li>
         <li><a href="#">Item 2</a></li>
         <li  class="active">

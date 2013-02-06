@@ -253,11 +253,11 @@ Amarelo				#dfb417
 	background-color:#c1dfda;
 	font-size:0.8em;
 }
-.site-navigation > .menu .sub-menu li a:hover {
+.site-navigation > .vertical .sub-menu li a:hover {
 	background-color:#82bfb5;
 	color:#067f6c;
 }
-.site-navigation > .menu .active .sub-menu {
+.site-navigation > .vertical .active .sub-menu {
 	display:block;
 }
 /*@2.02.navigation-vertical-dropdown*/

@@ -139,7 +139,7 @@
 
     }
 
-    echo '<div class="pagination">';
+    echo '<div class="site-pagination">';
     for($i = 1; $i <= $contar; $i++){
     	if($i == $atual){
     		printf('<a class="active" href="#">%s</a>', $i);

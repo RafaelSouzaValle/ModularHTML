@@ -300,21 +300,16 @@ Amarelo				#dfb417
 /*@2.04.navigation-breadcrumbs*/
 
 /*@2.05.navigation-tabs*/
-.tab {
-	width:98%;
-	padding:1%;
-	display:none;
-}
-#tab-nav {
+.nav-tabs {
 	margin:0;
 	padding:0;
 	overflow:hidden;
 }
-#tab-nav li {
+.nav-tabs .tab-item {
 	list-style:none;
 	float:left;
 }
-#tab-nav li a {
+.nav-tabs .tab-item a {
 	padding:2px 10px;
 	border:1px solid #82bfb5;
 	border-bottom:none;
@@ -323,18 +318,22 @@ Amarelo				#dfb417
 	color:#449f91;
 	text-decoration:none;
 }
-#tab-nav li a:hover {
+.nav-tabs .tab-item a:hover {
 	background-color:#82bfb5;
 	color:#fff;
 }
-#tab-nav li a.current {
+.nav-tabs .tab-item .current {
 	background:#82bfb5;
 	color:#fff;
 }
-#tab-content	{
+.content-tabs	{
 	border:1px solid #82bfb5;
 }
-	
+.content-tabs .tab-content {
+	width:98%;
+	padding:1%;
+	display:none;
+}	
 /*@2.05.navigation-tabs*/
 
 /*@2.06.navigation-carousel*/

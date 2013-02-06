@@ -160,93 +160,104 @@ Amarelo				#dfb417
 /* -------->>> Navegação <<<----------*/
 /* -----------------------------------*/
 /*@2.01.navigation-horizontal-dropdown*/
-#nav-primary {
+/* CSS commum ao menu horizontal e vertical */
+.site-navigation > .menu {
 	overflow:hidden;
 }
-#nav-primary.horizontal {
-	width:100%;
-}
-.horizontal li {
-	float:left;
-	list-style-type:none;
-}
-.horizontal li a {
+.site-navigation > .menu li a {
 	padding:5px 15px;
 	text-align:center;
 	display:block;
 	background-color:#82bfb5;
 	color:#067f6c;
+	text-decoration: none;
 }
-.horizontal li a:hover, 
-.horizontal li.active a, 
-.horizontal li a.sub:hover {
+.site-navigation > .menu > li a:hover, 
+.site-navigation > .menu > li.active a, 
+.site-navigation > .menu > li a.sub:hover {
 	color:#fff;
 	background-color:#449f91;
 }
-.horizontal li a.sub {
-	background:#82bfb5 url(modulos/2.01.navigation-horizontal-dropdown/img/seta.png) no-repeat scroll 95% 17px;
-}
-.horizontal li a.sub:hover {
-	background-position:95% -9px;
-}
-.horizontal li:hover #nav-secondary {
-	display:block;
-}
-.horizontal #nav-secondary {
+.site-navigation > .menu .sub-menu {
 	margin:0;
 	padding:0;
-	position:absolute;
 	display:none;
 }
-.horizontal #nav-secondary li {
+.site-navigation > .menu .sub-menu li {
 	float:none;
 	list-style-type:none;
+	border-bottom: 1px solid #99d0c7;
+}
+/* Menu Horizontal */
+.site-navigation > .horizontal {
+	width:100%;
+}
+.site-navigation > .horizontal > li {
+	float:left;
+	list-style-type:none;
+	border-left: 1px solid #99d0c7;
+}
+.site-navigation > .horizontal > li a.sub {
+	background:#82bfb5 url(modulos/2.01.navigation-horizontal-dropdown/img/seta.png) no-repeat scroll 95% 17px;
+}
+.site-navigation > .horizontal > li > .sub:hover {	
+	background-position:95% -9px;
+}
+.site-navigation > .horizontal > li:hover > .sub-menu {
+	display:block;
+}
+.site-navigation > .horizontal .sub-menu {
+	position:absolute;
 }
 /*@2.01.navigation-horizontal-dropdown*/
 
 /*@2.02.navigation-vertical-dropdown*/
-#nav-primary {
+/* CSS commum ao menu horizontal e vertical */
+.site-navigation > .menu {
 	overflow:hidden;
 }
-#nav-primary.vertical {
-	width:150px;
-}
-.vertical li {
-	list-style-type:none;
-}
-.vertical li a {
+.site-navigation > .menu li a {
 	padding:5px 15px;
-	text-align:left;
+	text-align:center;
 	display:block;
 	background-color:#82bfb5;
 	color:#067f6c;
+	text-decoration: none;
 }
-.vertical li a:hover, 
-.vertical li.active a, 
-.vertical li a.sub:hover {
+.site-navigation > .menu > li a:hover, 
+.site-navigation > .menu > li.active a, 
+.site-navigation > .menu > li a.sub:hover {
 	color:#fff;
 	background-color:#449f91;
 }
-.vertical #nav-secondary {
+.site-navigation > .menu .sub-menu {
 	margin:0;
 	padding:0;
 	display:none;
 }
-.vertical #nav-secondary li {
+.site-navigation > .menu .sub-menu li {
 	float:none;
 	list-style-type:none;
-	border-bottom:dotted 1px #033f36;
+	border-bottom: 1px solid #99d0c7;
 }
-.vertical #nav-secondary li a {
+/* Menu vertical */
+.site-navigation > .vertical {
+	width:150px;
+}
+.site-navigation > .vertical > li {
+	list-style-type:none;
+	border-bottom: 1px solid #99d0c7;
+}
+.site-navigation > .vertical .sub-menu li a {
 	text-align:right;
 	background-color:#c1dfda;
 	font-size:0.8em;
 }
-.vertical #nav-secondary li a:hover {
+.site-navigation > .menu .sub-menu li a:hover {
 	background-color:#82bfb5;
 	color:#067f6c;
 }
-.vertical li.active #nav-secondary {
+.site-navigation > .menu .active .sub-menu {
 	display:block;
 }
 /*@2.02.navigation-vertical-dropdown*/

@@ -10,7 +10,11 @@
 	<link rel="stylesheet" href="../../global.css">
 
 	<!-- modernizr -->
-	<script src="../../js/libs/modernizr-2.0.6.min.js"></script>
+	
+
+1.9.0/
+
+<script src="../../js/libs/modernizr-2.6.2.min.js"></script>
 </head>
 <body class="exemplo">
 <div id="main">
@@ -19,3 +23,8 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 </body>
 </html>
+
+
+1.9.0/
+
+modernizr-2.6.2.min

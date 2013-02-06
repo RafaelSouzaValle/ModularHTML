@@ -266,19 +266,19 @@ Amarelo				#dfb417
 /*@2.02.navigation-vertical-dropdown*/
 
 /*@2.03.navigation-pagination*/
-.pagination {text-align:center;}
-.pagination a, 
-.pagination span {
+.site-pagination {text-align:center;}
+.site-pagination a, 
+.site-pagination span {
 	display:inline-block;
 	background-color: #c1dfda;
 	border: 1px solid #82bfb5;
 	padding:6px 10px;
 	text-decoration:none;
 	color:#067f6c;
-	margin:0px 5px;
+	margin:0 5px;
 }
-.pagination a:hover, 
-.pagination .active {
+.site-pagination a:hover, 
+.site-pagination .active {
 	background-color: #449f91;
 	color:#fff;
 }

@@ -379,7 +379,7 @@ Amarelo				#dfb417
 	cursor:pointer;
 	opacity:0.8;
 }
-.es-nav span.es-nav-next{
+.es-nav .es-nav-next{
 	right:12px;
 	left:auto;
 	background-position:top right;

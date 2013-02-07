@@ -30,7 +30,7 @@ $(document).ready(function(){
 <!--@2.05.navigation-tabs-->
 
 <!--@2.06.navigation-carousel-->
-<script type="text/javascript" src="/js/modulos/jquery.elastislide.js"></script>
+<script type="text/javascript" src="/js/modulos/jquery.elastislide-1.1.0.js"></script>
 <script type="text/javascript">	
 $('#carousel').elastislide({
 	imageW 	: 90,

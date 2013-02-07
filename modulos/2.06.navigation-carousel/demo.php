@@ -10,9 +10,6 @@
 	<link rel="stylesheet" href="../../global.css">
 
 	<!-- modernizr -->
-	
-
-1.9.0/
 
 <script src="../../js/libs/modernizr-2.6.2.min.js"></script>
 

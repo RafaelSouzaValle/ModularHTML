@@ -402,28 +402,30 @@ html[xmlns] .slides {
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	background: rgba(0,0,0,.3);
+	background: #999;
+	background: rgba(0,0,0,0.3);
 	color: #fff;
-	text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
 	font-size: 14px;
 	line-height: 18px;
-}
-.flex-direction-nav {
-	*height: 0;
 }
 .flex-direction-nav a {
 	width: 52px; 
 	height: 52px; 
 	margin: -20px 0 0; 
 	display: block; 
-	background:transparent url(modulos/4.03.image-slideshow/img/bg_direction_nav.png) no-repeat top left;
+	background:transparent url(http://modularhtml.com.br/modulos/4.03.image-slideshow/img/bg_direction_nav.png) no-repeat top left;
 	position: absolute; 
 	top: 50%; 
 	z-index: 10; 
 	opacity: 0.8;
 	cursor: pointer; 
-	text-indent: -9999px; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 	-webkit-transition: all .3s ease;
+	-moz-transition: all 3s ease; 
+	transition: all 3s ease;
 }
 .flex-direction-nav a:hover {
 	opacity: 1;
@@ -450,7 +452,6 @@ html[xmlns] .slides {
 	margin: 0 6px; 
 	display: inline-block; 
 	zoom: 1; 
-	*display: inline;
 }
 .flex-control-paging li a {
 	width: 11px; 
@@ -459,7 +460,9 @@ html[xmlns] .slides {
 	background: #666; 
 	background: rgba(0,0,0,0.5); 
 	cursor: pointer; 
-	text-indent: -9999px; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 	-webkit-border-radius: 20px; 
 	-moz-border-radius: 20px; 
 	-o-border-radius: 20px; 
@@ -676,28 +679,30 @@ html[xmlns] .slides {
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	background: rgba(0,0,0,.3);
+	background: #999;
+	background: rgba(0,0,0,0.3); 
 	color: #fff;
-	text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
 	font-size: 14px;
 	line-height: 18px;
-}
-.flex-direction-nav {
-	*height: 0;
 }
 .flex-direction-nav a {
 	width: 52px; 
 	height: 52px; 
 	margin: -20px 0 0; 
 	display: block; 
-	background:transparent url(modulos/4.03.image-slideshow/img/bg_direction_nav.png) no-repeat top left;
+	background:transparent url(http://modularhtml.com.br/modulos/4.03.image-slideshow/img/bg_direction_nav.png) no-repeat top left;
 	position: absolute; 
 	top: 50%; 
 	z-index: 10; 
 	opacity: 0.8;
 	cursor: pointer; 
-	text-indent: -9999px; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 	-webkit-transition: all .3s ease;
+	-moz-transition: all 3s ease; 
+	transition: all 3s ease;
 }
 .flex-direction-nav a:hover {
 	opacity: 1;
@@ -724,7 +729,6 @@ html[xmlns] .slides {
 	margin: 0 6px; 
 	display: inline-block; 
 	zoom: 1; 
-	*display: inline;
 }
 .flex-control-paging li a {
 	width: 11px; 
@@ -733,7 +737,9 @@ html[xmlns] .slides {
 	background: #666; 
 	background: rgba(0,0,0,0.5); 
 	cursor: pointer; 
-	text-indent: -9999px; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 	-webkit-border-radius: 20px; 
 	-moz-border-radius: 20px; 
 	-o-border-radius: 20px; 
@@ -784,7 +790,7 @@ html[xmlns] .slides {
 }
 /* Flexslider slideshow */
 .site-slideshow{
-	background: #fff; 
+	background: transparent; 
 	max-width: 650px;
 	padding: 0 16px;
 }

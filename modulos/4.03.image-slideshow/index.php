@@ -1,4 +1,4 @@
-<div class="slideshow">
+<div id="slideshow" class="flexslider site-slideshow">
 	<ul class="slides">
 		<li>
 			<img src="http://placehold.it/650x400&text=Foto1" />

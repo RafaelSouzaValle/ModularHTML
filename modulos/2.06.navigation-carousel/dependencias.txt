@@ -1,2 +1,2 @@
 jquery-1.9.0.js
-jquery.elastislide-1.1.0.js
+jquery.flexslider-min.js

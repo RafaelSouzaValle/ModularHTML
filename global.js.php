@@ -30,13 +30,14 @@ $(document).ready(function(){
 <!--@2.05.navigation-tabs-->
 
 <!--@2.06.navigation-carousel-->
-<script type="text/javascript" src="/js/modulos/jquery.elastislide-1.1.0.js"></script>
+<script type="text/javascript" src="/js/modulos/jquery.flexslider-min.js"></script>
 <script type="text/javascript">	
-$('#carousel').elastislide({
-	imageW 	: 90,
-	margin	: 10,
-	minItems	: 3
-});
+$('#carousel').flexslider({
+	    animation: "slide",
+	    animationLoop: false,
+	    itemWidth: 90,
+	    controlNav: false
+	  });
 </script>
 <!--@2.06.navigation-carousel-->
 
@@ -129,7 +130,7 @@ $(function(){
 <script type="text/javascript" src="/js/modulos/jquery.flexslider-min.js"></script>
 <script type="text/javascript">
 $(window).load(function() {
-	$('.slideshow').flexslider();
+	$('#slideshow').flexslider();
 });
 </script>
 <!--@4.03.image-slideshow-->

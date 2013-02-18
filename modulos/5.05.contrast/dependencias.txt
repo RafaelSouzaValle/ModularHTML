@@ -1,4 +1,4 @@
-jquery-1.9.0.js 
+jquery-1.9.0.min.js 
 styleswitcher.js
 constrast-normal.css
 contrast.css

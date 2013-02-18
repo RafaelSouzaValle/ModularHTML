@@ -43,26 +43,12 @@ $('#carousel').flexslider({
 
 
 <!--@2.07.navigation-accordion-->
+<link rel="stylesheet" href="/js/modulos/smoothness/jquery-ui-1.10.0.custom.min.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-	var firstAccordion = $('.accordion-item:first-child');
-	firstAccordion.find('.accordion-title').addClass('open');
-	firstAccordion.find('.accordion-content').css('display','block');
-	
-	$('.accordion-item').find('.accordion-title').each(function() {
-		$(this).click(function() {
-			if ( $(this).hasClass('open') ) {
-				$(this).removeClass('open');
-				$(this).siblings('.accordion-content').slideUp('slow');
-			} 
-			else {
-				$('.accordion-item').find('.accordion-title').removeClass('open');
-				$('.accordion-item').find('.accordion-content').slideUp('slow');
-				$(this).addClass('open');
-				$(this).siblings('.accordion-content').slideDown('slow');
-			}
-			return false;
-		});
+	$('#accordion').accordion ({
+		heightStyle: "content"
 	});
 });
 </script>
@@ -70,10 +56,10 @@ $(document).ready(function() {
 
 
 <!--@2.08.navigation-tag-cloud-->
-<script src="/js/modulos/jquery.tagcanvas.min.js" type="text/javascript"></script>
+<script src="/js/modulos/jquery.tagcanvas-2.1.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-	if(!$('#myCanvas').tagcanvas({
+	if(!$('#tagcloud').tagcanvas({
 	  textColour: '#666',
 	  outlineColour: '#bbb',
 	  reverse: true,
@@ -81,7 +67,7 @@ $(document).ready(function() {
 	  maxSpeed: 0.05,
 	  zoom: 1.2,
 	  zoomStep: 0
-	},'tag-cloud')) {
+	},'tagcloud-conatiner')) {
 	  // something went wrong, hide the canvas container
 	  $('#myCanvasContainer').hide();
 	}
@@ -117,8 +103,8 @@ $(document).ready(function() {
 
 <!--@2.10.calendar-picker-->
 <!-- Tema do jQueryUI usado:smoothness | arquivo css e imagens na pasta 'smoothness' -->
-<link rel="stylesheet" href="/js/modulos/smoothness/jquery-ui-1.8.17.custom.css" />
-<script src="/js/modulos/jquery-ui-1.8.17.custom.min.js"></script>
+<link rel="stylesheet" href="/js/modulos/smoothness/jquery-ui-1.10.0.custom.min.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
 <script type="text/javascript">
 $(function(){
 	$('#datepicker').datepicker();
@@ -295,8 +281,8 @@ $(document).ready(function() {
 
 <!--@7.01.modal-window-->
 <!-- Tema do jQueryUI usado :smoothness | arquivo css e imagens na pasta 'smoothness' -->
-<link rel="stylesheet" href="/js/modulos/smoothness/jquery-ui-1.8.17.custom.css" />
-<script src="/js/modulos/jquery-ui-1.8.17.custom.min.js"></script>
+<link rel="stylesheet" href="/js/modulos/smoothness/jquery-ui-1.10.0.custom.min" />
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
 <script type="text/javascript">
 $(function(){		
 	$('#dialog').dialog({

@@ -517,7 +517,9 @@ html[xmlns] .slides {
 	background: #c1dfda; 
 	padding: 10px 30px
 }
-.site-carousel li {margin-right: 5px;}
+.site-carousel li {
+	margin-right: 5px;
+}
 .site-carousel .flex-direction-nav a {
 	background: transparent url(modulos/2.06.navigation-carousel/img/nav.png) no-repeat 0 0;
 	width: 14px;
@@ -532,28 +534,22 @@ html[xmlns] .slides {
 /*@2.06.navigation-carousel*/
 
 /*@2.07.navigation-accordion*/
-.accordion-item	{}
-.accordion-title a,
-.accordion-content	{
-	width:96%;
-	padding:0 2%;
-}
-.accordion-title	{
-	margin:0;
-}
-.accordion-content {
-	display:none;
-}
-.accordion-title a	{
+.site-accordion .accordion-title {
 	background-color:#c1dfda;
 	color:#449f91;
 	display:block;
 	text-decoration:none;
+	background-image: none;
+	border: none;
 }
-.accordion-title a:hover,
-.accordion-title.open a {
+.site-accordion .accordion-title:hover,
+.site-accordion  .open {
 	background-color:#449f91;
 	color:#fff;
+	border: none;
+}
+.site-accordion .accordion-content{
+	border-color: #C1DFDA;
 }
 /*@2.07.navigation-accordion*/
 

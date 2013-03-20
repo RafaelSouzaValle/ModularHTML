@@ -9,13 +9,13 @@ Utilização
 Foram estabelecidas regras de utilização do ModularHTML que visam a padronizar e ajudar na atualização dos módulos, que devem ser respeitadas para mantermos o desenvolvimento e uso contínuo do projeto na produção de páginas web.
 
 * [Regras de nomenclatura](https://github.com/a2comunicacao/ModularHTML/wiki/Regras-de-Nomenclatura)
-*[Como criar e atualizar um módulo](https://github.com/a2comunicacao/ModularHTML/wiki/Como-criar-e-atualizar-um-m%C3%B3dulo)
+* [Como criar e atualizar um módulo](https://github.com/a2comunicacao/ModularHTML/wiki/Como-criar-e-atualizar-um-m%C3%B3dulo)
 
 
 Estrutura
 ---------
 
-Para manter a organização do projeto, todos os módulos foram numerados e separados pelas seguintes categorias, que por padrão, serão sempre nomeadas em inglês:
+Para manter a organização do projeto, todos os módulos foram numerados e separados pelas seguintes categorias (que por padrão, serão sempre nomeadas em inglês):
 
 * 1. Structure
 * 2. Navigation
@@ -37,18 +37,17 @@ Você encontrou um bug ou gostaria de sugerir uma melhoria ao ModularHTML?
 * Utilize os comentários para descrever e ser mais específico quanto ao problema ou sugestão;
 * **Não esqueça de marcar a label correspondente** para que possamos filtrar com mais rapidez!
 
-**Importante**
-
+###Importante
 Para que possamos filtrar os problemas e sugestões, sempre utilize as labels. Por padrão sempre utilize a label "não-confirmada", e depois defina "sugestão" para ideias e "bug" para problemas. Caso seja um problema específico de um módulo, utilize a label correspondente à sua categoria (Ex. bug + 1.structure) e descreva nos comentários em qual módulo específico você encontrou o problema.
 
 Créditos
 --------
 
-**Adriano Ribeiro** - http://twitter.com/adriano
-**Airton Vancin** - http://twitter.com/airtonvancin
-**Raphael Fabeni** - http://twitter.com/raphaelfabeni
-**Rodrigo Teixeira** - http://twitter.com/drigoteixeira
-**Sandra Segato** - http://twitter.com/sansegato
-**Vivian Oliveira** - http://twitter.com/viiholiveira
+* **Adriano Ribeiro** - http://twitter.com/adriano
+* **Airton Vancin** - http://twitter.com/airtonvancin
+* **Raphael Fabeni** - http://twitter.com/raphaelfabeni
+* **Rodrigo Teixeira** - http://twitter.com/drigoteixeira
+* **Sandra Segato** - http://twitter.com/sansegato
+* **Vivian Oliveira** - http://twitter.com/viiholiveira
 
 Copyright (c) 2012 A2 Comunicação - Distribuído sob licença [MIT](http://opensource.org/licenses/mit-license.php).

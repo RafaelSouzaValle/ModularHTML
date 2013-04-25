@@ -1,6 +1,6 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 
-<!--@2.05.navigation-tabs-->
+<!--@3.09.content_tabs-->
 <script type="text/javascript">
 $(document).ready(function(){
 
@@ -27,9 +27,9 @@ $(document).ready(function(){
 	
 })
 </script>
-<!--@2.05.navigation-tabs-->
+<!--@3.09.content_tabs-->
 
-<!--@2.06.navigation-carousel-->
+<!--@4.04.media_carousel-->
 <script type="text/javascript" src="/js/modulos/jquery.flexslider-min.js"></script>
 <script type="text/javascript">	
 $('#carousel').flexslider({
@@ -39,10 +39,10 @@ $('#carousel').flexslider({
 	    controlNav: false
 	  });
 </script>
-<!--@2.06.navigation-carousel-->
+<!--@4.04.media_carousel-->
 
 
-<!--@2.07.navigation-accordion-->
+<!--@3.10.content_accordion-->
 <link rel="stylesheet" href="/js/modulos/smoothness/jquery-ui-1.10.0.custom.min.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
 <script type="text/javascript">
@@ -52,10 +52,10 @@ $(document).ready(function() {
 	});
 });
 </script>
-<!--@2.07.navigation-accordion-->
+<!--@3.10.content_accordion-->
 
 
-<!--@2.08.navigation-tag-cloud-->
+<!--@2.05.navigation_tag-cloud-->
 <script src="/js/modulos/jquery.tagcanvas-2.1.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(document).ready(function() {
@@ -73,9 +73,9 @@ $(document).ready(function() {
 	}
 });
 </script>
-<!--@2.08.navigation-tag-cloud-->
+<!--@2.05.navigation_tag-cloud-->
 
-<!--@2.09.navigation-glossary-->
+<!--@3.11.content_glossary-->
 <script src="/js/modulos/jquery.listnav.pack-2.1.js"></script>		
 <script charset="utf-8" type="text/javascript">
 	$(document).ready(function(){
@@ -99,9 +99,9 @@ $(document).ready(function() {
 		}
 	});
 </script>	
-<!--@2.09.navigation-glossary-->
+<!--@3.11.content_glossary-->
 
-<!--@2.10.calendar-picker-->
+<!--@2.06.navigation_calendar-picker-->
 <!-- Tema do jQueryUI usado:smoothness | arquivo css e imagens na pasta 'smoothness' -->
 <link rel="stylesheet" href="/js/modulos/smoothness/jquery-ui-1.10.0.custom.min.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
@@ -110,18 +110,18 @@ $(function(){
 	$('#datepicker').datepicker();
 });
 </script>
-<!--@2.10.calendar-picker-->
+<!--@2.06.navigation_calendar-picker-->
 
-<!--@4.03.image-slideshow-->
+<!--@4.02.media_slideshow-->
 <script type="text/javascript" src="/js/modulos/jquery.flexslider-min.js"></script>
 <script type="text/javascript">
 $(window).load(function() {
 	$('#slideshow').flexslider();
 });
 </script>
-<!--@4.03.image-slideshow-->
+<!--@4.02.media_slideshow-->
 	
-<!--@5.01.tweets-->
+<!--@5.01.widget_tweets-->
 <script type="text/javascript" src="/js/modulos/jquery.jtweetsanywhere-1.3.1.min.js"></script>
 <script type="text/javascript" src="http://platform.twitter.com/anywhere.js?id=kxArpQ1JRyYdGOKosZsrow&v=1"></script>
 <script type="text/javascript">
@@ -141,9 +141,9 @@ $(window).load(function() {
 		});
 	});
 </script>
-<!--@5.01.tweets-->
+<!--@5.01.widget_tweets-->
 	
-<!--@5.02.widget-social-networks-share-->
+<!--@5.02.widget_social-networks-share-->
 <script src="/js/modulos/jquery.sharrre-1.2.0.min.js"></script>
 <script>
 $('#shareme').sharrre({
@@ -170,10 +170,10 @@ $('#shareme').sharrre({
 	enableTracking: true
 });
 </script>
-<!--@5.02.widget-social-networks-share-->
+<!--@5.02.widget_social-networks-share-->
 
 
-<!--@5.03.control-font-size-->
+<!--@5.03.widget_control-font-size-->
 <script type="text/javascript">
 $(document).ready(function() {
 	$('.resizeText').click(function(){
@@ -192,9 +192,9 @@ $(document).ready(function() {
 	});	
 });
 </script>
-<!--@5.03.control-font-size-->
+<!--@5.03.widget_control-font-size-->
 
-<!--@5.04.print-->
+<!--@5.04.widget_print-->
 <script type="text/javascript">
 $(document).ready(function() {
 	$("#print").click(function(){
@@ -203,10 +203,10 @@ $(document).ready(function() {
 	});
 });
 </script>
-<!--@5.04.print-->
+<!--@5.04.widget_print-->
 
 
-<!--@5.05.contrast-->
+<!--@5.05.widget_contrast-->
 <script src="/js/modulos/styleswitcher.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
@@ -219,10 +219,10 @@ $(document).ready(function() {
 	});
 });
 </script>
-<!--@5.05.contrast-->
+<!--@5.05.widget_contrast-->
 
 
-<!--@5.08.01.audio-player-->
+<!--@5.07.widget_audio-player-->
 <script src="/js/modulos/audio/jquery.jplayer.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
@@ -254,7 +254,7 @@ $(document).ready(function(){
 	});
 });
 </script>
-<!--@5.08.01.audio-player-->
+<!--@5.07.widget_audio-player-->
 
 
 <!--@5.08.02.audio-player-->
@@ -267,19 +267,19 @@ $(document).ready(function () {
 <!--@5.08.02.audio-player-->
 
 
-<!--@5.10.rating-->
+<!--@5.08.widget_rating-->
 <script type="text/javascript" src="/js/modulos/jquery.raty.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 	$('#rating').raty({
 		cancel:     true,
-		path:		'/modulos/5.10.rating/img/'
+		path:		'/modulos/5.08.widget_rating/img/'
 	});
 });
 </script>
-<!--@5.10.rating-->
+<!--@5.08.widget_rating-->
 
-<!--@7.01.modal-window-->
+<!--@7.01.modal_window-->
 <!-- Tema do jQueryUI usado :smoothness | arquivo css e imagens na pasta 'smoothness' -->
 <link rel="stylesheet" href="/js/modulos/smoothness/jquery-ui-1.10.0.custom.min" />
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
@@ -304,9 +304,9 @@ $(function(){
 	});
 });
 </script>
-<!--@7.01.modal-window-->
+<!--@7.01.modal_window-->
 
-<!--@8.09.form-select-action-->
+<!--@8.09.forms_select-action-->
 <script type="text/javascript">
 $(document).ready(function () {
 	$('#select-action option').click(function() {
@@ -320,9 +320,9 @@ $(document).ready(function () {
 	
 });
 </script>
-<!--@8.09.form-select-action-->
+<!--@8.09.forms_select-action-->
 
-<!--@8.11.form-search-field-->
+<!--@8.10.forms_search-field-->
 <script type="text/javascript">
 $(document).ready(function() {
 	$('input[type=text], textarea').each(function(){
@@ -341,24 +341,24 @@ $(document).ready(function() {
 	});
 });
 </script>
-<!--@8.11.form-search-field-->
+<!--@8.10.forms_search-field-->
 
-<!--@8.12.form-cadastre-->
+<!--@8.11.forms_cadastre-->
 <script type="text/javascript" src="/js/modulos/jquery.password-strength.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 	$('#cadastre-password').password_strength();
 });
 </script>
-<!--@8.12.form-cadastre-->
+<!--@8.11.forms_cadastre-->
 
-<!--@8.15.form-password-strength-->
+<!--@8.14.forms_password-strength-->
 <script type="text/javascript" src="/js/modulos/jquery.password-strength.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 	$('#password').password_strength();
 });
 </script>
-<!--@8.15.form-password-strength-->
+<!--@8.14.forms_password-strength-->
 
 

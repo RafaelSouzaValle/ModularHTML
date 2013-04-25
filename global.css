@@ -160,7 +160,9 @@ Amarelo				#dfb417
 /* -----------------------------------*/
 /* -------->>> Navegação <<<----------*/
 /* -----------------------------------*/
-/*@2.01.navigation-horizontal-dropdown*/
+
+
+/*@2.01.navigation_horizontal-dropdown*/
 /* CSS commum ao menu horizontal e vertical */
 .site-navigation > .menu {
 	overflow:hidden;
@@ -199,7 +201,7 @@ Amarelo				#dfb417
 	border-left: 1px solid #99d0c7;
 }
 .site-navigation > .horizontal > li a.sub {
-	background:#82bfb5 url(modulos/2.01.navigation-horizontal-dropdown/img/seta.png) no-repeat scroll 95% 17px;
+	background:#82bfb5 url(modulos/2.01.navigation_horizontal-dropdown/img/seta.png) no-repeat scroll 95% 17px;
 }
 .site-navigation > .horizontal > li > a.sub:hover {	
 	background-position:95% -9px;
@@ -210,9 +212,9 @@ Amarelo				#dfb417
 .site-navigation > .horizontal .sub-menu {
 	position:absolute;
 }
-/*@2.01.navigation-horizontal-dropdown*/
+/*@2.01.navigation_horizontal-dropdown*/
 
-/*@2.02.navigation-vertical-dropdown*/
+/*@2.02.navigation_vertical-dropdown*/
 /* CSS commum ao menu horizontal e vertical */
 .site-navigation > .menu {
 	overflow:hidden;
@@ -264,9 +266,9 @@ Amarelo				#dfb417
 .site-navigation > .vertical .active .sub-menu {
 	display:block;
 }
-/*@2.02.navigation-vertical-dropdown*/
+/*@2.02.navigation_vertical-dropdown*/
 
-/*@2.03.navigation-pagination*/
+/*@2.03.navigation_pagination*/
 .site-pagination {text-align:center;}
 .site-pagination a, 
 .site-pagination span {
@@ -283,9 +285,9 @@ Amarelo				#dfb417
 	background-color: #449f91;
 	color:#fff;
 }
-/*@2.03.navigation-pagination*/
+/*@2.03.navigation_pagination*/
 
-/*@2.04.navigation-breadcrumbs*/
+/*@2.04.navigation_breadcrumbss*/
 .site-breadcrumbs ul li{
         float:left;
         padding: 0 10px 0 30px;
@@ -298,9 +300,9 @@ Amarelo				#dfb417
 .site-breadcrumbs ul .current {
 	font-height:bold;
 }
-/*@2.04.navigation-breadcrumbs*/
+/*@2.04.navigation_breadcrumbs*/
 
-/*@2.05.navigation-tabs*/
+/*@3.09.content_tabs*/
 .nav-tabs {
 	margin:0;
 	padding:0;
@@ -335,9 +337,9 @@ Amarelo				#dfb417
 	padding:1%;
 	display:none;
 }	
-/*@2.05.navigation-tabs*/
+/*@3.09.content_tabss*/
 
-/*@2.06.navigation-carousel*/
+/*@4.04.media_carousel*/
 /* CSS commum ao carousel e slideshow */
 .flex-container a:active,
 .flexslider a:active,
@@ -414,7 +416,7 @@ html[xmlns] .slides {
 	height: 52px; 
 	margin: -20px 0 0; 
 	display: block; 
-	background:transparent url(http://modularhtml.com.br/modulos/4.03.image-slideshow/img/bg_direction_nav.png) no-repeat top left;
+	background:transparent url(http://modularhtml.com.br/modulos/4.04.media_carousel/img/bg_direction_nav.png) no-repeat top left;
 	position: absolute; 
 	top: 50%; 
 	z-index: 10; 
@@ -521,7 +523,7 @@ html[xmlns] .slides {
 	margin-right: 5px;
 }
 .site-carousel .flex-direction-nav a {
-	background: transparent url(modulos/2.06.navigation-carousel/img/nav.png) no-repeat 0 0;
+	background: transparent url(modulos/4.04.media_carousel/img/nav.png) no-repeat 0 0;
 	width: 14px;
 }
 .site-carousel .flex-direction-nav .flex-next {
@@ -531,9 +533,9 @@ html[xmlns] .slides {
 .site-carousel .flex-direction-nav .flex-prev {
 	left: 5px;
 }
-/*@2.06.navigation-carousel*/
+/*@4.04.media_carousel*/
 
-/*@2.07.navigation-accordion*/
+/*@3.10.content_accordion*/
 .site-accordion .accordion-title {
 	background-color:#c1dfda;
 	color:#449f91;
@@ -551,7 +553,7 @@ html[xmlns] .slides {
 .site-accordion .accordion-content{
 	border-color: #C1DFDA;
 }
-/*@2.07.navigation-accordion*/
+/*@3.10.content_accordion*/
 
 /* CORES */
 /*
@@ -563,7 +565,7 @@ Verde bem escuro	#033f36
 Amarelo				#dfb417
 */
 
-/*@2.09.navigation-glossary*/
+/*@3.11.content_glossary*/
 #glossary .ln-letters {overflow: hidden;}
 #glossary .ln-letters a {
     background:#82bfb5;
@@ -600,7 +602,7 @@ Amarelo				#dfb417
 #glossary .list-glossary #abc li p{margin: 0 0 10px 0; font-size:12px;}
 
 
-/*@2.09.navigation-glossary*/
+/*@3.11.content_glossary*/
 
 /* -----------------------------------*/
 /* ---------->>> Texto <<<------------*/
@@ -610,7 +612,7 @@ Amarelo				#dfb417
 /* -----------------------------------*/
 /* ---------->>> Imagem <<<-----------*/
 /* -----------------------------------*/
-/*@4.03.image-slideshow*/
+/*@4.02.media_slideshow*/
 /* CSS commum ao carousel e slideshow */
 .flex-container a:active,
 .flexslider a:active,
@@ -687,7 +689,7 @@ html[xmlns] .slides {
 	height: 52px; 
 	margin: -20px 0 0; 
 	display: block; 
-	background:transparent url(http://modularhtml.com.br/modulos/4.03.image-slideshow/img/bg_direction_nav.png) no-repeat top left;
+	background:transparent url(http://modularhtml.com.br/modulos/4.02.media_slideshow/img/bg_direction_nav.png) no-repeat top left;
 	position: absolute; 
 	top: 50%; 
 	z-index: 10; 
@@ -790,9 +792,9 @@ html[xmlns] .slides {
 	max-width: 650px;
 	padding: 0 16px;
 }
-/*@4.03.image-slideshow*/
+/*@4.02.media_slideshow*/
 
-/*@4.04.thumbnails*/
+/*@4.03.media_thumbnails*/
 .thumbnails	{
 	float:left;
 	margin:0 5px;
@@ -804,14 +806,14 @@ html[xmlns] .slides {
 	-moz-opacity: 0.7;
 	opacity: 0.7;	
 }
-/*@4.04.thumbnails*/
+/*@4.03.media_thumbnails*/
 
 
 /* -----------------------------------*/
 /* ---------->>> Widget <<<-----------*/
 /* -----------------------------------*/
 
-/*@5.01.tweets*/
+/*@5.01.widget_tweets*/
 .jta-tweet-list .jta-tweet-profile-image{
 	float:left;
 	margin:0 10px 0 0;
@@ -926,9 +928,9 @@ html[xmlns] .slides {
     visibility: hidden;
     width: 0;
 }
-/*@5.01.tweets*/
+/*@5.01.widget_tweets*/
 
-/*@5.02.widget-social-networks-share*/
+/*@5.02.widget_social-networks-share*/
 .social-networks-share	{
 	float:left; 
 	margin:68px 25% 0 25%;
@@ -940,14 +942,14 @@ html[xmlns] .slides {
 .social-networks-share .sharrre .button.twitter{
 	width:75px;
 }
-/*@5.02.widget-social-networks-share*/
+/*@5.02.widget_social-networks-share*/
 
-/*@5.03.control-font-size*/
+/*@5.03.widget_control-font-size*/
 .font-size	{
 	overflow:hidden;
 } 
 .font-size a	{
-	background:url(modulos/5.03.control-font-size/img/sprite-tools.png) no-repeat;
+	background:url(modulos/5.03.widget_control-font-size/img/sprite-tools.png) no-repeat;
 	display:block;
 	width:20px;
 	height:20px;
@@ -967,14 +969,14 @@ html[xmlns] .slides {
 #decrease:hover	{
 	background-position:-54px -20px;
 }
-/*@5.03.control-font-size*/
+/*@5.03.widget_control-font-size*/
 
-/*@5.04.print*/
+/*@5.04.widget_print*/
 .print-text	{
 	overflow:hidden;
 }
 #print	{
-	background:url(modulos/5.04.print/img/sprite-tools.png) no-repeat -1px 0;
+	background:url(modulos/5.04.widget_print/img/sprite-tools.png) no-repeat -1px 0;
 	display:block;
 	height:20px;
 	width:20px;
@@ -983,11 +985,11 @@ html[xmlns] .slides {
 #print:hover	{
 	background-position:-1px -20px;
 }
-/*@5.04.print*/
+/*@5.04.widget_print*/
 
-/*@5.05.contrast*/
+/*@5.05.widget_contrast*/
 .contrast	{
-	background:url(modulos/5.05.contrast/img/sprite-tools.png) no-repeat -79px 0;
+	background:url(modulos/5.05.widget_contrast/img/sprite-tools.png) no-repeat -79px 0;
 	display:block;
 	width:20px;
 	height:20px;
@@ -997,9 +999,9 @@ html[xmlns] .slides {
 .contrast:hover	{
 	background-position:-79px -20px;
 }
-/*@5.05.contrast*/
+/*@5.05.widget_contrast*/
 
-/*@5.06.widget-social-networks*/
+/*@5.06.widget_social-networks*/
 #social-networks {
 	height:55px;
 }
@@ -1019,7 +1021,7 @@ html[xmlns] .slides {
 	height: 30px;
 	text-indent: -9999px;
 	overflow: hidden;
-	background: url(modulos/5.06.widget-social-networks/img/redes_sociais.png) no-repeat;
+	background: url(modulos/5.06.widget_social-networks/img/redes_sociais.png) no-repeat;
 	display: block;
 	position: relative;
 	z-index: 2;
@@ -1064,9 +1066,9 @@ html[xmlns] .slides {
 #social-networks li.rss a {
 	background-position: -462px -3px;
 }
-/*@5.06.widget-social-networks*/
+/*@5.06.widget_social-networks*/
 
-/*@5.08.01.audio-player*/
+/*@5.07.widget_audio-player*/
 div.jp-audio,
 div.jp-video {
 	font-size:1em;
@@ -1144,17 +1146,17 @@ a.jp-pause {
 }
 
 a.jp-play {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) 0 0 no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) 0 0 no-repeat;
 }
 a.jp-play:hover {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -41px 0 no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -41px 0 no-repeat;
 }
 a.jp-pause {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) 0 -42px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) 0 -42px no-repeat;
 	display: none;
 }
 a.jp-pause:hover {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -41px -42px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -41px -42px no-repeat;
 }
 a.jp-stop, a.jp-previous, a.jp-next {
 	width:28px;
@@ -1163,26 +1165,26 @@ a.jp-stop, a.jp-previous, a.jp-next {
 }
 
 a.jp-stop {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) 0 -83px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) 0 -83px no-repeat;
 	margin-left:10px;
 }
 
 a.jp-stop:hover {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -29px -83px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -29px -83px no-repeat;
 }
 
 a.jp-previous {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) 0 -112px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) 0 -112px no-repeat;
 }
 a.jp-previous:hover {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -29px -112px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -29px -112px no-repeat;
 }
 
 a.jp-next {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) 0 -141px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) 0 -141px no-repeat;
 }
 a.jp-next:hover {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -29px -141px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -29px -141px no-repeat;
 }
 /* @end */
 /* @group progress bar */
@@ -1210,19 +1212,19 @@ div.jp-video div.jp-progress {
 	height:10px;
 }
 div.jp-seek-bar {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) 0 -202px repeat-x;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) 0 -202px repeat-x;
 	width:0px;
 	height:100%;
 	cursor: pointer;
 }
 div.jp-play-bar {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) 0 -218px repeat-x ;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) 0 -218px repeat-x ;
 	width:0px;
 	height:100%;
 }
 /* The seeking class is added/removed inside jPlayer */
 div.jp-seeking-bg {
-	background: url(modulos/5.08.01.audio-player/img/jplayer-seeking.gif);
+	background: url(modulos/5.07.widget_audio-player/img/jplayer-seeking.gif);
 }
 /* @end */
 /* @group volume controls */
@@ -1261,29 +1263,29 @@ div.jp-video a.jp-volume-max {
 }
 
 a.jp-mute {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) 0 -170px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) 0 -170px no-repeat;
 }
 a.jp-mute:hover {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -19px -170px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -19px -170px no-repeat;
 }
 a.jp-unmute {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -60px -170px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -60px -170px no-repeat;
 	display: none;
 }
 a.jp-unmute:hover {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -79px -170px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -79px -170px no-repeat;
 }
 
 a.jp-volume-max {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) 0 -186px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) 0 -186px no-repeat;
 }
 a.jp-volume-max:hover {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -19px -186px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -19px -186px no-repeat;
 }
 div.jp-volume-bar {
 	position: absolute;
 	overflow:hidden;
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) 0 -250px repeat-x;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) 0 -250px repeat-x;
 	width:46px;
 	height:5px;
 	cursor: pointer;
@@ -1297,7 +1299,7 @@ div.jp-video div.jp-volume-bar {
 	left:72px;
 }
 div.jp-volume-bar-value {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) 0 -256px repeat-x;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) 0 -256px repeat-x;
 	width:0px;
 	height:5px;
 }
@@ -1460,44 +1462,44 @@ ul.jp-toggles li a {
 	line-height:100%;
 }
 a.jp-full-screen {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) 0 -310px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) 0 -310px no-repeat;
 	margin-left: 20px;
 }
 a.jp-full-screen:hover {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -30px -310px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -30px -310px no-repeat;
 }
 a.jp-restore-screen {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -60px -310px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -60px -310px no-repeat;
 	margin-left: 20px;
 }
 a.jp-restore-screen:hover {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -90px -310px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -90px -310px no-repeat;
 }
 a.jp-repeat {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) 0 -290px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) 0 -290px no-repeat;
 }
 a.jp-repeat:hover {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -30px -290px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -30px -290px no-repeat;
 }
 a.jp-repeat-off {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -60px -290px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -60px -290px no-repeat;
 }
 a.jp-repeat-off:hover {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -90px -290px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -90px -290px no-repeat;
 }
 a.jp-shuffle {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) 0 -270px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) 0 -270px no-repeat;
 	margin-left: 5px;
 }
 a.jp-shuffle:hover {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -30px -270px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -30px -270px no-repeat;
 }
 a.jp-shuffle-off {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -60px -270px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -60px -270px no-repeat;
 	margin-left: 5px;
 }
 a.jp-shuffle-off:hover {
-	background: url(modulos/5.08.01.audio-player/img/jplayer.jpg) -90px -270px no-repeat;
+	background: url(modulos/5.07.widget_audio-player/img/jplayer.jpg) -90px -270px no-repeat;
 }
 /* @end */
 /* @group NO SOLUTION error feedback */
@@ -1523,13 +1525,13 @@ a.jp-shuffle-off:hover {
 	text-align:center;
 	font-weight:bold;
 }
-/*@5.08.01.audio-player*/
+/*@5.07.widget_audio-player*/
 
 /* -----------------------------------*/
 /* ---------->>> Listas <<<-----------*/
 /* -----------------------------------*/
 
-/*@6.01.list-files*/
+/*@6.01.lists_files*/
 ul.list-files {
 	display:block;
 	margin: 0 0 20px 0;
@@ -1546,19 +1548,19 @@ ul.list-files li a {
 	font-size:12px;
 }
 ul.list-files li a[href $='.pdf'] {
-	background:url(modulos/6.01.list-files/img/pdf.png) no-repeat scroll left center;
+	background:url(modulos/6.01.lists_files/img/pdf.png) no-repeat scroll left center;
 }
 ul.list-files li a[href $='.doc'] {
-	background:url(modulos/6.01.list-files/img/doc.png) no-repeat scroll left center;
+	background:url(modulos/6.01.lists_files/img/doc.png) no-repeat scroll left center;
 }
 ul.list-files li a[href $='.xls'] {
-	background:url(modulos/6.01.list-files/img/xls.png) no-repeat scroll left center;
+	background:url(modulos/6.01.lists_files/img/xls.png) no-repeat scroll left center;
 }
 ul.list-files li a[href $='.ppt'] {
-	background:url(modulos/6.01.list-files/img/ppt.png) no-repeat scroll left center;
+	background:url(modulos/6.01.lists_files/img/ppt.png) no-repeat scroll left center;
 }
 ul.list-files li a[href $='.mp3'] {
-	background:url(modulos/6.01.list-files/img/mp3.png) no-repeat scroll left center;
+	background:url(modulos/6.01.lists_files/img/mp3.png) no-repeat scroll left center;
 }
 ul.list-files li:nth-child(even) a {
 background-color:#f9f9f9;
@@ -1566,9 +1568,9 @@ background-color:#f9f9f9;
 ul.list-files li a:hover {
 	background-color:#f5f5f5;
 }
-/*@6.01.list-files*/
+/*@6.01.lists_files*/
 
-/*@6.02.list-category*/
+/*@6.02.lists_category*/
 ul.list-category {
 	display:block;
 	margin: 0 0 20px 0;
@@ -1606,9 +1608,9 @@ ul.list-category li a:hover {
 	-moz-transition:all 0.5s ease;
 	-webkit-transition:all 0.5s ease;
 }
-/*@6.02.list-category*/
+/*@6.02.lists_category*/
 
-/*@6.03.list-articles*/
+/*@6.03.lists_articles*/
 ul.list-articles	{
 	overflow:hidden;
 }
@@ -1641,7 +1643,7 @@ ul.list-articles .subtitle	{
 .content-type figure	{
 	float:left; margin-right:0.5em;
 }
-/*@6.3.list-articles*/
+/*@6.03.lists_articles*/
 
 
 /* -----------------------------------*/
@@ -1653,7 +1655,7 @@ ul.list-articles .subtitle	{
 /* ------->>> Formulário <<<----------*/
 /* -----------------------------------*/
 
-/*@8.01.form-label*/
+/*@8.01.forms_label*/
 label {
 	display:block;
 	margin:5px 0px 10px 0px;
@@ -1670,13 +1672,13 @@ label span {
 .input-text:focus {
 	border:solid 1px #82bfb5;
 }
-/*@8.01.form-label*/
+/*@8.01.forms_label*/
 
-/*@8.02.form-text*/
+/*@8.02.forms_text*/
 /*propriedade herdada do item anterior*/
-/*@8.02.form-text*/
+/*@8.02.forms_text*/
 
-/*@8.03.form-submit*/
+/*@8.03.forms_submit*/
 .input-submit {
 	background-color:#c1dfda;
 	color:#449f91;
@@ -1687,9 +1689,9 @@ label span {
 	background-color:#82bfb5;
 	color:#fff;
 }
-/*@8.03.form-submit*/
+/*@8.03.forms_submit*/
 
-/*@8.04.form-textarea*/
+/*@8.04.forms_textarea*/
 .input-textarea {
 	border:solid 1px #c1dfda;
 	color:#999999;
@@ -1697,15 +1699,15 @@ label span {
 .input-textarea:focus {
 	border:solid 1px #82bfb5;
 }
-/*@8.04.form-textarea*/
+/*@8.04.forms_textarea*/
 
-/*@8.05.form-file*/
+/*@8.05.forms_file*/
 .input-file {
 	color:#999;
 }
-/*@8.05.form-file*/
+/*@8.05.forms_file*/
 
-/*@8.06.form-select*/
+/*@8.06.forms_select*/
 .select-form {
 	border:solid 1px #c1dfda;
 	color:#999999;
@@ -1714,38 +1716,38 @@ label span {
 .select-form:focus {
 	border:solid 1px #82bfb5;	
 }
-/*@8.06.form-select*/
+/*@8.06.forms_select*/
 
-/*@8.07.form-checkbox*/
+/*@8.07.forms_checkbox*/
 .input-checkbox {
 	margin-right: 10px;
 	padding: 0;
 	vertical-align: baseline;
 	color:#999999;
 }
-/*@8.07.form-checkbox*/
+/*@8.07.forms_checkbox*/
 
-/*@8.08.form-radio*/
+/*@8.08.forms_radio*/
 .input-radio {
 	margin-right: 10px;
 	padding: 0;
 	vertical-align: baseline;
 }
-/*@8.08.form-radio*/
+/*@8.08.forms_radio*/
 
-/*@8.09.form-select-action*/
+/*@8.09.forms_select-action*/
 input[type=submit]:disabled {
 	border:solid 1px #e5e5e5;
 	color:#e5e5e5;
 	background-color:#f5f5f5;
 }
-/*@8.09.form-select-action*/
+/*@8.09.forms_select-actio*/
 
-/*@8.11.form-search-field*/
+/*@8.10.forms_search-field*/
 /* Utilizar o mesmo css do módulo: 8.12 */
-/*@8.11.form-search-field*/
+/*@8.10.forms_search-field*/
 
-/*@8.12.form-cadastre*/
+/*@8.11.forms_cadastre*/
 form{
 	display:block; 
 	padding:2%; 
@@ -1830,9 +1832,9 @@ form .password_strength_5	{
 }
 
 
-/*@8.12.form-cadastre*/
+/*@8.11.forms_cadastre*/
 
-/*@8.13.form-contact*/
+/*@8.12.forms_contact*/
 /* Utilizar o mesmo css do módulo: 8.12 + */
 .ddd{ 
 	float:left;	
@@ -1844,18 +1846,18 @@ form .password_strength_5	{
 	float:left;
 	width:80%;
 }
-/*@8.13.form-contact*/
+/*@8.12.forms_contact*/
 
 
-/*@8.14.form-login*/
+/*@8.13.forms_login*/
 /* Utilizar o mesmo css do módulo: 8.12 */
-/*@8.14.form-login*/
+/*@8.13.forms_login*/
 
-/*@8.15.form-password-strength*/
+/*@8.14.forms_password-strength*/
 /* Utilizar o mesmo css do módulo: 8.12 */
-/*@8.15.form-password-strength*/
+/*@8.14.forms_password-strength*/
 
-/*@8.16.form-feedback-success*/
+/*@8.15.forms_feedback-success*/
 .feedback	{
 	display:block;
 	width:96%;
@@ -1873,11 +1875,11 @@ form .password_strength_5	{
 	color: #264409; 
 }
 .feedback.success p { 
-	background:url(modulos/8.16.form-feedback-success/img/success.png) no-repeat left center;
+	background:url(modulos/8.15.forms_feedback-success/img/success.png) no-repeat left center;
 }
-/*@8.16.form-feedback-success*/
+/*@8.15.forms_feedback-success*/
 
-/*@8.17.form-feedback-error*/
+/*@8.16.forms_feedback-error*/
 /* Propriedades da classe 'feedback' herdadas do Módulo anterior */
 .feedback.error {
 	background-color:#FBE3E4; 
@@ -1885,11 +1887,11 @@ form .password_strength_5	{
 	color: #8A1F11; 
 }
 .feedback.error p { 
-	background:url(modulos/8.17.form-feedback-error/img/error.png) no-repeat left center;
+	background:url(modulos/8.15.forms_feedback-success/img/error.png) no-repeat left center;
 }
-/*@8.17.form-feedback-error*/
+/*@8.16.forms_feedback-error*/
 
-/*@8.18.form-feedback-alert*/
+/*@8.17.forms_feedback-alert*/
 /* Propriedades da classe 'feedback' herdadas do Módulo 8.16 */
 .feedback.alert {
 	background-color:#FFF6BF;
@@ -1897,11 +1899,11 @@ form .password_strength_5	{
 	color: #514721;
 }
 .feedback.alert p { 
-	background:url(modulos/8.18.form-feedback-alert/img/alert.png) no-repeat left center;
+	background:url(modulos/8.15.forms_feedback-success/img/alert.png) no-repeat left center;
 }
-/*@8.18.form-feedback-alert*/
+/*@8.17.forms_feedback-alert*/
 
-/*@8.19.form-feedback-information*/
+/*@8.18.forms_feedback-information*/
 /* Propriedades da classe 'feedback' herdadas do Módulo 8.16 */
 .feedback.information {
 	background-color:#d8f7ff;
@@ -1909,11 +1911,11 @@ form .password_strength_5	{
 	color: #416997;
 }
 .feedback.information p { 
-	background:url(modulos/8.19.form-feedback-information/img/info.png) no-repeat left center;
+	background:url(modulos/8.15.forms_feedback-success/img/info.png) no-repeat left center;
 }
-/*@8.19.form-feedback-information*/
+/*@8.18.forms_feedback-information*/
 
-/*@8.20.form-button*/
+/*@8.19.forms_button*/
 button[type=submit] { 
 	background-color:#c1dfda;
 	color:#449f91;
@@ -1924,21 +1926,4 @@ button[type=submit]:hover	{
 	background-color:#82bfb5;
 	color:#fff;
 }
-/*@8.20.form-button*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*@8.19.forms_button*/

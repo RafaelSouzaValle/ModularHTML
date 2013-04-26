@@ -153,12 +153,7 @@ Amarelo				#dfb417
 */
 
 /* -----------------------------------*/
-/* -------->>> Estrutura <<<----------*/
-/* -----------------------------------*/
-
-
-/* -----------------------------------*/
-/* -------->>> Navegação <<<----------*/
+/* ------->>> 2. Navigation <<<-------*/
 /* -----------------------------------*/
 
 
@@ -214,6 +209,7 @@ Amarelo				#dfb417
 }
 /*@2.01.navigation_horizontal-dropdown*/
 
+
 /*@2.02.navigation_vertical-dropdown*/
 /* CSS commum ao menu horizontal e vertical */
 .site-navigation > .menu {
@@ -268,6 +264,7 @@ Amarelo				#dfb417
 }
 /*@2.02.navigation_vertical-dropdown*/
 
+
 /*@2.03.navigation_pagination*/
 .site-pagination {text-align:center;}
 .site-pagination a, 
@@ -287,6 +284,7 @@ Amarelo				#dfb417
 }
 /*@2.03.navigation_pagination*/
 
+
 /*@2.04.navigation_breadcrumbss*/
 .site-breadcrumbs ul li{
         float:left;
@@ -301,6 +299,13 @@ Amarelo				#dfb417
 	font-height:bold;
 }
 /*@2.04.navigation_breadcrumbs*/
+
+
+
+/* -----------------------------------*/
+/* --------->>> 3. Content <<<--------*/
+/* -----------------------------------*/
+
 
 /*@3.09.content_tabs*/
 .nav-tabs {
@@ -337,203 +342,8 @@ Amarelo				#dfb417
 	padding:1%;
 	display:none;
 }	
-/*@3.09.content_tabss*/
+/*@3.09.content_tabs*/
 
-/*@4.04.media_carousel*/
-/* CSS commum ao carousel e slideshow */
-.flex-container a:active,
-.flexslider a:active,
-.flex-container a:focus,
-.flexslider a:focus  {
-	outline: none;
-}
-.slides,
-.flex-control-nav,
-.flex-direction-nav {
-	margin: 0; padding: 0; list-style: none;
-} 
-.flexslider {
-	position: relative; 
-	zoom: 1;
-}
-.flexslider .slides > li {
-	display: none; 
-	-webkit-backface-visibility: hidden;
-} 
-.flexslider .slides a {
-	border: 2px solid #82bfb5;
-	display: block;
-}
-.flexslider .slides img {
-	max-width: 100%; 
-	display: block;}
-.flex-pauseplay span {
-	text-transform: capitalize;
-}
-
-.slides:after {
-	content: "."; 
-	display: block; 
-	clear: both; 
-	visibility: hidden; 
-	line-height: 0; 
-	height: 0;
-} 
-html[xmlns] .slides {
-	display: block;
-} 
-* html .slides {
-	height: 1%;
-}
-.no-js .slides > li:first-child {display: block;}
-.flex-viewport {
-	max-height: 2000px; 
-	-webkit-transition: all 1s ease; 
-	-moz-transition: all 1s ease; 
-	transition: all 1s ease;
-}
-.loading .flex-viewport {
-	max-height: 300px;
-}
-.flexslider .slides {
-	zoom: 1;
-}
-.flexslider .flex-caption {
-	width: 96%;
-	padding: 2%;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	background: #999;
-	background: rgba(0,0,0,0.3);
-	color: #fff;
-	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
-	font-size: 14px;
-	line-height: 18px;
-}
-.flex-direction-nav a {
-	width: 52px; 
-	height: 52px; 
-	margin: -20px 0 0; 
-	display: block; 
-	background:transparent url(http://modularhtml.com.br/modulos/4.04.media_carousel/img/bg_direction_nav.png) no-repeat top left;
-	position: absolute; 
-	top: 50%; 
-	z-index: 10; 
-	opacity: 0.8;
-	cursor: pointer; 
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-transition: all .3s ease;
-	-moz-transition: all 3s ease; 
-	transition: all 3s ease;
-}
-.flex-direction-nav a:hover {
-	opacity: 1;
-}
-.flex-direction-nav .flex-next {
-	background-position: 100% 0; 
-	right: 0; 
-}
-.flex-direction-nav .flex-prev {
-	left: 0;
-}
-.flex-direction-nav .flex-disabled {
-	opacity: .3!important; 
-	filter:alpha(opacity=30); 
-	cursor: default;
-}
-.flex-control-nav {
-	width: 100%; 
-	position: absolute; 
-	bottom: -40px; 
-	text-align: center;
-}
-.flex-control-nav li {
-	margin: 0 6px; 
-	display: inline-block; 
-	zoom: 1; 
-}
-.flex-control-paging li a {
-	width: 11px; 
-	height: 11px; 
-	display: block; 
-	background: #666; 
-	background: rgba(0,0,0,0.5); 
-	cursor: pointer; 
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-border-radius: 20px; 
-	-moz-border-radius: 20px; 
-	-o-border-radius: 20px; 
-	border-radius: 20px; 
-	box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
-}
-.flex-control-paging li a:hover {
-	background: #333; 
-	background: rgba(0,0,0,0.7); 
-}
-.flex-control-paging li a.flex-active { 
-	background: #000; 
-	background: rgba(0,0,0,0.9); 
-	cursor: default; 
-}
-.flex-control-thumbs {
-	margin: 5px 0 0; 
-	position: static; 
-	overflow: hidden;
-}
-.flex-control-thumbs li {
-	width: 25%; 
-	float: left; 
-	margin: 0;
-}
-.flex-control-thumbs img {
-	width: 100%; 
-	display: block; 
-	opacity: .7; 
-	cursor: pointer;
-}
-.flex-control-thumbs img:hover {
-	opacity: 1;
-}
-.flex-control-thumbs .flex-active {
-	opacity: 1; 
-	cursor: default;
-}
-@media screen and (max-width: 860px) {
-  .flex-direction-nav .flex-prev {
-  	opacity: 1; 
-  	left: 0;
-  }
-  .flex-direction-nav .flex-next {
-  	opacity: 1; 
-  	right: 0;
-  }
-}
-/* Flexslider carousel */
-.site-carousel {
-	margin: 0 0 60px; 
-	background: #c1dfda; 
-	padding: 10px 30px
-}
-.site-carousel li {
-	margin-right: 5px;
-}
-.site-carousel .flex-direction-nav a {
-	background: transparent url(modulos/4.04.media_carousel/img/nav.png) no-repeat 0 0;
-	width: 14px;
-}
-.site-carousel .flex-direction-nav .flex-next {
-	background-position: -14px 0;
-	right: 5px; 
-}
-.site-carousel .flex-direction-nav .flex-prev {
-	left: 5px;
-}
-/*@4.04.media_carousel*/
 
 /*@3.10.content_accordion*/
 .site-accordion .accordion-title {
@@ -555,15 +365,6 @@ html[xmlns] .slides {
 }
 /*@3.10.content_accordion*/
 
-/* CORES */
-/*
-Verde bem claro		#c1dfda
-Verde claro			#82bfb5
-Verde médio			#449f91
-Verde escuro		#067f6c
-Verde bem escuro	#033f36
-Amarelo				#dfb417
-*/
 
 /*@3.11.content_glossary*/
 #glossary .ln-letters {overflow: hidden;}
@@ -604,14 +405,12 @@ Amarelo				#dfb417
 
 /*@3.11.content_glossary*/
 
+
 /* -----------------------------------*/
-/* ---------->>> Texto <<<------------*/
+/* ---------->>> 4. Media <<<---------*/
 /* -----------------------------------*/
 
 
-/* -----------------------------------*/
-/* ---------->>> Imagem <<<-----------*/
-/* -----------------------------------*/
 /*@4.02.media_slideshow*/
 /* CSS commum ao carousel e slideshow */
 .flex-container a:active,
@@ -809,9 +608,208 @@ html[xmlns] .slides {
 /*@4.03.media_thumbnails*/
 
 
+/*@4.04.media_carousel*/
+/* CSS commum ao carousel e slideshow */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {
+	outline: none;
+}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+	margin: 0; padding: 0; list-style: none;
+} 
+.flexslider {
+	position: relative; 
+	zoom: 1;
+}
+.flexslider .slides > li {
+	display: none; 
+	-webkit-backface-visibility: hidden;
+} 
+.flexslider .slides a {
+	border: 2px solid #82bfb5;
+	display: block;
+}
+.flexslider .slides img {
+	max-width: 100%; 
+	display: block;}
+.flex-pauseplay span {
+	text-transform: capitalize;
+}
+
+.slides:after {
+	content: "."; 
+	display: block; 
+	clear: both; 
+	visibility: hidden; 
+	line-height: 0; 
+	height: 0;
+} 
+html[xmlns] .slides {
+	display: block;
+} 
+* html .slides {
+	height: 1%;
+}
+.no-js .slides > li:first-child {display: block;}
+.flex-viewport {
+	max-height: 2000px; 
+	-webkit-transition: all 1s ease; 
+	-moz-transition: all 1s ease; 
+	transition: all 1s ease;
+}
+.loading .flex-viewport {
+	max-height: 300px;
+}
+.flexslider .slides {
+	zoom: 1;
+}
+.flexslider .flex-caption {
+	width: 96%;
+	padding: 2%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #999;
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+	font-size: 14px;
+	line-height: 18px;
+}
+.flex-direction-nav a {
+	width: 52px; 
+	height: 52px; 
+	margin: -20px 0 0; 
+	display: block; 
+	background:transparent url(http://modularhtml.com.br/modulos/4.04.media_carousel/img/bg_direction_nav.png) no-repeat top left;
+	position: absolute; 
+	top: 50%; 
+	z-index: 10; 
+	opacity: 0.8;
+	cursor: pointer; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all 3s ease; 
+	transition: all 3s ease;
+}
+.flex-direction-nav a:hover {
+	opacity: 1;
+}
+.flex-direction-nav .flex-next {
+	background-position: 100% 0; 
+	right: 0; 
+}
+.flex-direction-nav .flex-prev {
+	left: 0;
+}
+.flex-direction-nav .flex-disabled {
+	opacity: .3!important; 
+	filter:alpha(opacity=30); 
+	cursor: default;
+}
+.flex-control-nav {
+	width: 100%; 
+	position: absolute; 
+	bottom: -40px; 
+	text-align: center;
+}
+.flex-control-nav li {
+	margin: 0 6px; 
+	display: inline-block; 
+	zoom: 1; 
+}
+.flex-control-paging li a {
+	width: 11px; 
+	height: 11px; 
+	display: block; 
+	background: #666; 
+	background: rgba(0,0,0,0.5); 
+	cursor: pointer; 
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-border-radius: 20px; 
+	-moz-border-radius: 20px; 
+	-o-border-radius: 20px; 
+	border-radius: 20px; 
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+}
+.flex-control-paging li a:hover {
+	background: #333; 
+	background: rgba(0,0,0,0.7); 
+}
+.flex-control-paging li a.flex-active { 
+	background: #000; 
+	background: rgba(0,0,0,0.9); 
+	cursor: default; 
+}
+.flex-control-thumbs {
+	margin: 5px 0 0; 
+	position: static; 
+	overflow: hidden;
+}
+.flex-control-thumbs li {
+	width: 25%; 
+	float: left; 
+	margin: 0;
+}
+.flex-control-thumbs img {
+	width: 100%; 
+	display: block; 
+	opacity: .7; 
+	cursor: pointer;
+}
+.flex-control-thumbs img:hover {
+	opacity: 1;
+}
+.flex-control-thumbs .flex-active {
+	opacity: 1; 
+	cursor: default;
+}
+@media screen and (max-width: 860px) {
+  .flex-direction-nav .flex-prev {
+  	opacity: 1; 
+  	left: 0;
+  }
+  .flex-direction-nav .flex-next {
+  	opacity: 1; 
+  	right: 0;
+  }
+}
+/* Flexslider carousel */
+.site-carousel {
+	margin: 0 0 60px; 
+	background: #c1dfda; 
+	padding: 10px 30px
+}
+.site-carousel li {
+	margin-right: 5px;
+}
+.site-carousel .flex-direction-nav a {
+	background: transparent url(modulos/4.04.media_carousel/img/nav.png) no-repeat 0 0;
+	width: 14px;
+}
+.site-carousel .flex-direction-nav .flex-next {
+	background-position: -14px 0;
+	right: 5px; 
+}
+.site-carousel .flex-direction-nav .flex-prev {
+	left: 5px;
+}
+/*@4.04.media_carousel*/
+
+
+
 /* -----------------------------------*/
-/* ---------->>> Widget <<<-----------*/
+/* ---------->>> 5. Widget <<<--------*/
 /* -----------------------------------*/
+
 
 /*@5.01.widget_tweets*/
 .jta-tweet-list .jta-tweet-profile-image{
@@ -930,6 +928,8 @@ html[xmlns] .slides {
 }
 /*@5.01.widget_tweets*/
 
+
+
 /*@5.02.widget_social-networks-share*/
 .social-networks-share	{
 	float:left; 
@@ -943,6 +943,8 @@ html[xmlns] .slides {
 	width:75px;
 }
 /*@5.02.widget_social-networks-share*/
+
+
 
 /*@5.03.widget_control-font-size*/
 .font-size	{
@@ -970,6 +972,8 @@ html[xmlns] .slides {
 	background-position:-54px -20px;
 }
 /*@5.03.widget_control-font-size*/
+
+
 
 /*@5.04.widget_print*/
 .print-text	{
@@ -1000,6 +1004,8 @@ html[xmlns] .slides {
 	background-position:-79px -20px;
 }
 /*@5.05.widget_contrast*/
+
+
 
 /*@5.06.widget_social-networks*/
 #social-networks {
@@ -1067,6 +1073,8 @@ html[xmlns] .slides {
 	background-position: -462px -3px;
 }
 /*@5.06.widget_social-networks*/
+
+
 
 /*@5.07.widget_audio-player*/
 div.jp-audio,
@@ -1527,9 +1535,11 @@ a.jp-shuffle-off:hover {
 }
 /*@5.07.widget_audio-player*/
 
+
 /* -----------------------------------*/
-/* ---------->>> Listas <<<-----------*/
+/* ---------->>> 6. Lists <<<--------*/
 /* -----------------------------------*/
+
 
 /*@6.01.lists_files*/
 ul.list-files {
@@ -1569,6 +1579,7 @@ ul.list-files li a:hover {
 	background-color:#f5f5f5;
 }
 /*@6.01.lists_files*/
+
 
 /*@6.02.lists_category*/
 ul.list-category {
@@ -1610,6 +1621,7 @@ ul.list-category li a:hover {
 }
 /*@6.02.lists_category*/
 
+
 /*@6.03.lists_articles*/
 ul.list-articles	{
 	overflow:hidden;
@@ -1646,14 +1658,11 @@ ul.list-articles .subtitle	{
 /*@6.03.lists_articles*/
 
 
-/* -----------------------------------*/
-/* ---------->>> Modal <<<------------*/
-/* -----------------------------------*/
-
 
 /* -----------------------------------*/
-/* ------->>> Formulário <<<----------*/
+/* --------->>> 8. Forms <<<----------*/
 /* -----------------------------------*/
+
 
 /*@8.01.forms_label*/
 label {
@@ -1673,6 +1682,7 @@ label span {
 	border:solid 1px #82bfb5;
 }
 /*@8.01.forms_label*/
+
 
 /*@8.02.forms_text*/
 /*propriedade herdada do item anterior*/
@@ -1927,3 +1937,5 @@ button[type=submit]:hover	{
 	color:#fff;
 }
 /*@8.19.forms_button*/
+
+

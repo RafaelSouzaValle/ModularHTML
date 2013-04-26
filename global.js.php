@@ -1,5 +1,43 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 
+
+
+<!-- 2. Navigation -->
+
+<!--@2.05.navigation_tag-cloud-->
+<script src="/js/modulos/jquery.tagcanvas-2.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	if(!$('#tagcloud').tagcanvas({
+	  textColour: '#666',
+	  outlineColour: '#bbb',
+	  reverse: true,
+	  depth: 0.8,
+	  maxSpeed: 0.05,
+	  zoom: 1.2,
+	  zoomStep: 0
+	},'tagcloud-conatiner')) {
+	  // something went wrong, hide the canvas container
+	  $('#myCanvasContainer').hide();
+	}
+});
+</script>
+<!--@2.05.navigation_tag-cloud-->
+
+<!--@2.06.navigation_calendar-picker-->
+<!-- Tema do jQueryUI usado:smoothness | arquivo css e imagens na pasta 'smoothness' -->
+<link rel="stylesheet" href="/js/modulos/smoothness/jquery-ui-1.10.0.custom.min.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#datepicker').datepicker();
+});
+</script>
+<!--@2.06.navigation_calendar-picker-->
+
+
+<!-- 3. Content -->
+
 <!--@3.09.content_tabs-->
 <script type="text/javascript">
 $(document).ready(function(){
@@ -29,19 +67,6 @@ $(document).ready(function(){
 </script>
 <!--@3.09.content_tabs-->
 
-<!--@4.04.media_carousel-->
-<script type="text/javascript" src="/js/modulos/jquery.flexslider-min.js"></script>
-<script type="text/javascript">	
-$('#carousel').flexslider({
-	    animation: "slide",
-	    animationLoop: false,
-	    itemWidth: 90,
-	    controlNav: false
-	  });
-</script>
-<!--@4.04.media_carousel-->
-
-
 <!--@3.10.content_accordion-->
 <link rel="stylesheet" href="/js/modulos/smoothness/jquery-ui-1.10.0.custom.min.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
@@ -53,27 +78,6 @@ $(document).ready(function() {
 });
 </script>
 <!--@3.10.content_accordion-->
-
-
-<!--@2.05.navigation_tag-cloud-->
-<script src="/js/modulos/jquery.tagcanvas-2.1.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-	if(!$('#tagcloud').tagcanvas({
-	  textColour: '#666',
-	  outlineColour: '#bbb',
-	  reverse: true,
-	  depth: 0.8,
-	  maxSpeed: 0.05,
-	  zoom: 1.2,
-	  zoomStep: 0
-	},'tagcloud-conatiner')) {
-	  // something went wrong, hide the canvas container
-	  $('#myCanvasContainer').hide();
-	}
-});
-</script>
-<!--@2.05.navigation_tag-cloud-->
 
 <!--@3.11.content_glossary-->
 <script src="/js/modulos/jquery.listnav.pack-2.1.js"></script>		
@@ -101,16 +105,9 @@ $(document).ready(function() {
 </script>	
 <!--@3.11.content_glossary-->
 
-<!--@2.06.navigation_calendar-picker-->
-<!-- Tema do jQueryUI usado:smoothness | arquivo css e imagens na pasta 'smoothness' -->
-<link rel="stylesheet" href="/js/modulos/smoothness/jquery-ui-1.10.0.custom.min.css" />
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
-<script type="text/javascript">
-$(function(){
-	$('#datepicker').datepicker();
-});
-</script>
-<!--@2.06.navigation_calendar-picker-->
+
+
+<!-- 4. Media -->
 
 <!--@4.02.media_slideshow-->
 <script type="text/javascript" src="/js/modulos/jquery.flexslider-min.js"></script>
@@ -120,6 +117,21 @@ $(window).load(function() {
 });
 </script>
 <!--@4.02.media_slideshow-->
+
+<!--@4.04.media_carousel-->
+<script type="text/javascript" src="/js/modulos/jquery.flexslider-min.js"></script>
+<script type="text/javascript">	
+$('#carousel').flexslider({
+	    animation: "slide",
+	    animationLoop: false,
+	    itemWidth: 90,
+	    controlNav: false
+	  });
+</script>
+<!--@4.04.media_carousel-->
+
+
+<!-- 5. Widget -->
 	
 <!--@5.01.widget_tweets-->
 <script type="text/javascript" src="/js/modulos/jquery.jtweetsanywhere-1.3.1.min.js"></script>
@@ -279,6 +291,10 @@ $(document).ready(function() {
 </script>
 <!--@5.08.widget_rating-->
 
+
+
+<!-- 7. Modal -->
+
 <!--@7.01.modal_window-->
 <!-- Tema do jQueryUI usado :smoothness | arquivo css e imagens na pasta 'smoothness' -->
 <link rel="stylesheet" href="/js/modulos/smoothness/jquery-ui-1.10.0.custom.min" />
@@ -305,6 +321,10 @@ $(function(){
 });
 </script>
 <!--@7.01.modal_window-->
+
+
+
+<!-- 8. Forms -->
 
 <!--@8.09.forms_select-action-->
 <script type="text/javascript">

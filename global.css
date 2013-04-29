@@ -285,7 +285,7 @@ Amarelo				#dfb417
 /*@2.03.navigation_pagination*/
 
 
-/*@2.04.navigation_breadcrumbss*/
+/*@2.04.navigation_breadcrumbs*/
 .site-breadcrumbs ul li{
         float:left;
         padding: 0 10px 0 30px;
@@ -367,8 +367,8 @@ Amarelo				#dfb417
 
 
 /*@3.11.content_glossary*/
-#glossary .ln-letters {overflow: hidden;}
-#glossary .ln-letters a {
+.site-glossary .ln-letters {overflow: hidden;}
+.site-glossary .ln-letters a {
     background:#82bfb5;
     border:1px solid #449f91;
     border-right:none;
@@ -381,13 +381,12 @@ Amarelo				#dfb417
     text-decoration: none;
 	font-weight:bold;
 }
-#glossary .ln-letters a.ln-last{border-right:1px solid #449f91;}
+.site-glossary .ln-letters a.ln-last{border-right:1px solid #449f91;}
 
-#glossary .ln-letters a.ln-disabled {color: #82bfb5; background:#c1dfda;}
-#glossary .ln-letters a:hover, 
-#glossary .ln-letters a.ln-selected {background: #449f91; color:#FFF;}
-
-#glossary .ln-letter-count {
+.site-glossary .ln-letters a.ln-disabled {color: #82bfb5; background:#c1dfda;}
+.site-glossary .ln-letters a:hover, 
+.site-glossary .ln-letters a.ln-selected {background: #449f91; color:#FFF;}
+.site-glossary .ln-letter-count {
     color: #E7E5B7;
     display: none !important;
     font-size: 0.8em;
@@ -396,11 +395,11 @@ Amarelo				#dfb417
     text-align: center;
 }
 
-#glossary .list-glossary{margin: 0 0 20px 0;}
-#glossary .list-glossary #abc{padding:0; margin: 0; display:block; list-style:none; background:none;}
-#glossary .list-glossary #abc li{display:block; border-bottom:1px solid #ccc; padding:10px 0; margin: 0 0 10px 0;  }
-#glossary .list-glossary #abc li h4{margin: 0 0 10px 0; font-size:18px; line-height:18px;}
-#glossary .list-glossary #abc li p{margin: 0 0 10px 0; font-size:12px;}
+.site-glossary .list-glossary{margin: 0 0 20px 0;}
+.site-glossary .list-glossary #abc{padding:0; margin: 0; display:block; list-style:none; background:none;}
+.site-glossary .list-glossary #abc li{display:block; border-bottom:1px solid #ccc; padding:10px 0; margin: 0 0 10px 0;  }
+.site-glossary .list-glossary #abc li h4{margin: 0 0 10px 0; font-size:18px; line-height:18px;}
+.site-glossary .list-glossary #abc li p{margin: 0 0 10px 0; font-size:12px;}
 
 
 /*@3.11.content_glossary*/

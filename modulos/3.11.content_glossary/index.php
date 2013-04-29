@@ -1,4 +1,4 @@
-<div id="glossary">
+<div id="glossary" class="site-glossary">
 	<div id="abc-nav" class="listNav"></div>
 	<div class="list-glossary">	
 		<ul id="abc">
@@ -32,6 +32,10 @@
 			</li>
 			<li>
 				<h4>D Lorem Ipsum is simply dummy text</h4>	
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy tex</p>
+			</li>
+			<li>
+				<h4>P Lorem Ipsum is simply dummy text</h4>	
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy tex</p>
 			</li>
 		</ul>

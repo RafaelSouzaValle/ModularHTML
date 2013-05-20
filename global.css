@@ -333,6 +333,16 @@ blockquote {
 }
 /*@3.06.content_blockquote*/
 
+/*@3.08.content_legend*/
+.legend {
+	padding: 2px 6px;
+	display: block;
+	background-color: #ddd;
+	color: #666;
+	font-size: 14px;
+}
+/*@3.08.content_legend*/
+
 /*@3.09.content_tabs*/
 .nav-tabs {
 	margin:0;

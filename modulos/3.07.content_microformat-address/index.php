@@ -1,5 +1,5 @@
 <address class="vcard">	
-	<span class="title">
+	<span class="v-title">
 		<span class="copyright">© 2012</span>
 		<span class="org fn">A2 Comunicação</span>
 	</span>
@@ -9,6 +9,6 @@
 		<span class="locality">São Paulo</span> -
 		<abbr title="São Paulo" class="region">SP</abbr> -
 		<span class="country-name">Brasil</span> - 
-		<span class="tel">55 (11) 3872-5565</span>
-	</span>			
+	</span>	
+	<span class="tel">55 (11) 3872-5565</span>		
 </address>

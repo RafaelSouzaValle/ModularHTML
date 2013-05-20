@@ -319,6 +319,13 @@ Amarelo				#dfb417
 }
 /*@3.02.content_subtitle*/
 
+/*@3.03.content_before-title*/
+.beforetitle {
+	font-size: 12px;
+	font-weight: bold;
+}
+/*@3.03.content_before-title*/
+
 /*@3.09.content_tabs*/
 .nav-tabs {
 	margin:0;

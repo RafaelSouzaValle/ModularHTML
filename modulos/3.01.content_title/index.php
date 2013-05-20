@@ -1,1 +1,1 @@
-<h2>There are many variations of passages of Lorem</h2>
+<h2 class="title">There are many variations of passages of Lorem</h2>

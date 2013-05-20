@@ -81,7 +81,7 @@ $(document).ready(function() {
 
 <!--@3.11.content_glossary-->
 <script src="/js/modulos/jquery.listnav.pack-2.1.js"></script>		
-<script charset="utf-8" type="text/javascript">
+<script type="text/javascript">
 	$(document).ready(function(){
 		var url = document.URL.split('#')[1];
 		if(url){

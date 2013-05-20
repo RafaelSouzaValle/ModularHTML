@@ -306,6 +306,18 @@ Amarelo				#dfb417
 /* --------->>> 3. Content <<<--------*/
 /* -----------------------------------*/
 
+/*@3.01.content_title*/
+.title {
+	font-size: 24px;
+}
+/*@3.01.content_title*/
+
+/*@3.02.content_subtitle*/
+.subtitle {
+	font-size: 16px;
+	color: #666;
+}
+/*@3.02.content_subtitle*/
 
 /*@3.09.content_tabs*/
 .nav-tabs {

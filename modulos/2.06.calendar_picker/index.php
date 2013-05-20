@@ -1,1 +1,1 @@
-<input id="datepicker" type="text" class="input-text">
+<input id="datepicker" type="text" class="input-text site-datepicker">

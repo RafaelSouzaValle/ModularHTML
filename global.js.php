@@ -30,7 +30,7 @@ $(document).ready(function() {
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
 <script type="text/javascript">
 $(function(){
-	$('#datepicker').datepicker();
+	$('.site-datepicker').datepicker();
 });
 </script>
 <!--@2.06.navigation_calendar-picker-->
@@ -297,7 +297,7 @@ $(document).ready(function() {
 
 <!--@7.01.modal_window-->
 <!-- Tema do jQueryUI usado :smoothness | arquivo css e imagens na pasta 'smoothness' -->
-<link rel="stylesheet" href="/js/modulos/smoothness/jquery-ui-1.10.0.custom.min.css" />
+<link rel="stylesheet" href="/js/modulos/smoothness/jquery-ui-1.10.0.custom.min.css " />
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
 <script type="text/javascript">
 $(function(){		

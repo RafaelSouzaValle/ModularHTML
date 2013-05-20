@@ -326,6 +326,13 @@ Amarelo				#dfb417
 }
 /*@3.03.content_before-title*/
 
+/*@3.06.content_blockquote*/
+blockquote {
+	font-style: italic;
+	color: #666;
+}
+/*@3.06.content_blockquote*/
+
 /*@3.09.content_tabs*/
 .nav-tabs {
 	margin:0;

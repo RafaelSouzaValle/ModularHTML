@@ -445,6 +445,19 @@ blockquote {
 /* ---------->>> 4. Media <<<---------*/
 /* -----------------------------------*/
 
+/*@4.01.media_image*/
+.media_image {
+	display: inline-block; 
+	max-width: 100%;
+}
+.media_image img { max-width: 100%; }
+.media_image figcaption {  
+	padding: 2px 6px;
+	background-color: #ddd;
+	color: #666;
+	font-size: 14px;
+}
+/*@4.01.media_image*/
 
 /*@4.02.media_slideshow*/
 /* CSS commum ao carousel e slideshow */

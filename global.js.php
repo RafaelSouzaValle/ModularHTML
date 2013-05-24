@@ -186,22 +186,10 @@ $('#shareme').sharrre({
 
 
 <!--@5.03.widget_control-font-size-->
+<script src="/js/modulos/jquery.fontsize.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-	$('.resizeText').click(function(){
-		var ourText = $('p');
-		var currFontSize = ourText.css('fontSize');
-		var finalNum = parseFloat(currFontSize, 16);
-		var stringEnding = currFontSize.slice(-2);
-		if(this.id == 'increase') {
-			finalNum *= 1.2;
-		}
-		else if (this.id == 'decrease'){
-			finalNum /=1.2;
-		}
-		ourText.css('fontSize', finalNum + stringEnding);
-		return false;
-	});	
+	$('body').fontsize();
 });
 </script>
 <!--@5.03.widget_control-font-size-->

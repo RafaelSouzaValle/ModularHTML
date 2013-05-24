@@ -977,7 +977,6 @@ html[xmlns] .slides {
 /*@5.01.widget_tweets*/
 
 
-
 /*@5.02.widget_social-networks-share*/
 .social-networks-share	{
 	float:left; 
@@ -993,7 +992,6 @@ html[xmlns] .slides {
 /*@5.02.widget_social-networks-share*/
 
 
-
 /*@5.03.widget_control-font-size*/
 .font-size	{
 	overflow:hidden;
@@ -1007,16 +1005,16 @@ html[xmlns] .slides {
 	text-indent:-9999px;
 	outline:none;
 }
-#increase	{
+.font-size .increase	{
 	background-position:-27px 0;
 }
-#increase:hover	{
+.font-size .increase:hover	{
 	background-position:-27px -20px;
 }
-#decrease	{
+.font-size .decrease	{
 	background-position:-54px 0;
 }
-#decrease:hover	{
+.font-size .decrease:hover	{
 	background-position:-54px -20px;
 }
 /*@5.03.widget_control-font-size*/

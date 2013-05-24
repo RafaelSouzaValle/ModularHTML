@@ -2,14 +2,12 @@ html {
 	background: #000 !important;
 }
 
-body, #container, #superior {
+body {
 	background-image: none !important;
 	background-color: #000 !important;
 }
 
-#page {
-	background-color: #000 !important;
-}
+.hold-modulos { background-color: #333 !important; }
 
 h1{font-family: 'AllerBold'; }
 h2{color: #fff !important;}

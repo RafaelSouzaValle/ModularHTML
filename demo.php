@@ -64,7 +64,7 @@
 		?>
 	</select>
 </div>
-<div id="modulos">
+<div id="modulos" class="hold-modulos">
 <?
     foreach($resultado as $valor){
     		$file = substr($valor, 8);

@@ -223,7 +223,7 @@ $(document).ready(function() {
 
 
 <!--@5.07.widget_audio-player-->
-<script src="/js/modulos/audio/jquery.jplayer.min.js"></script>
+<script src="/js/modulos/audio/jquery.jplayer-2.3.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 	$("#jquery_jplayer_1").jPlayer({

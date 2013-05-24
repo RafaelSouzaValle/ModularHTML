@@ -1,4 +1,4 @@
-<ul id="social-networks">
+<ul id="social-networks" class="site-social-networks">
 	<li class="facebook"><a href="#" title="Facebook">Facebook</a></li>
 	<li class="twitter"><a href="#" title="Twitter">Twitter</a></li>
 	<li class="orkut"><a href="#" title="Orkut">Orkut</a></li>

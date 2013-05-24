@@ -194,6 +194,7 @@ $(document).ready(function() {
 </script>
 <!--@5.03.widget_control-font-size-->
 
+
 <!--@5.04.widget_print-->
 <script type="text/javascript">
 $(document).ready(function() {
@@ -268,7 +269,7 @@ $(document).ready(function () {
 
 
 <!--@5.08.widget_rating-->
-<script type="text/javascript" src="/js/modulos/jquery.raty.js"></script>
+<script type="text/javascript" src="/js/modulos/jquery.raty-2.5.2.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 	$('#rating').raty({

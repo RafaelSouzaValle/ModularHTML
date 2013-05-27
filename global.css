@@ -1719,12 +1719,10 @@ label {
 	margin:5px 0px 10px 0px;
 	max-width: 100%;
 	color:#999;
-	background-color: red;
 }
 label span {
 	display:block;
 	color:#999;
-	background-color: blue;
 }
 .input-text {
 	border:solid 1px #c1dfda;
@@ -1773,9 +1771,10 @@ label span {
 
 /*@8.06.forms_select*/
 .select-form {
+	padding: 2px;
+	max-width: 100%;
 	border:solid 1px #c1dfda;
 	color:#999999;
-	padding:2px;
 }
 .select-form:focus {
 	border:solid 1px #82bfb5;	
@@ -1894,8 +1893,6 @@ form .password_strength_5	{
 	border: 1px solid #C6D880; 
 	color: #264409; 
 }
-
-
 /*@8.11.forms_cadastre*/
 
 /*@8.12.forms_contact*/

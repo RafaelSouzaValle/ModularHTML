@@ -1858,7 +1858,6 @@ form label textarea:focus{
 	background:#f9f9f9;
 }
 form label input[type=submit]{
-	width:10%;
 	padding:8px;
 	border:1px solid #bbb;
 	background:#ccc;

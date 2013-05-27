@@ -1588,58 +1588,58 @@ html[xmlns] .slides {
 
 
 /*@6.01.lists_files*/
-ul.list-files {
+.list-files {
 	display:block;
 	margin: 0 0 20px 0;
 	padding:0;
 }
-ul.list-files li {
+.list-files li {
 	display:block;
 	padding:0;
 	border-bottom:1px dotted #ccc;
 }
-ul.list-files li a {
+.list-files li a {
 	display:block;
 	padding:8px 10px 8px 40px;
 	font-size:12px;
 }
-ul.list-files li a[href $='.pdf'] {
+.list-files li a[href $='.pdf'] {
 	background:url(modulos/6.01.lists_files/img/pdf.png) no-repeat scroll left center;
 }
-ul.list-files li a[href $='.doc'] {
+.list-files li a[href $='.doc'] {
 	background:url(modulos/6.01.lists_files/img/doc.png) no-repeat scroll left center;
 }
-ul.list-files li a[href $='.xls'] {
+.list-files li a[href $='.xls'] {
 	background:url(modulos/6.01.lists_files/img/xls.png) no-repeat scroll left center;
 }
-ul.list-files li a[href $='.ppt'] {
+.list-files li a[href $='.ppt'] {
 	background:url(modulos/6.01.lists_files/img/ppt.png) no-repeat scroll left center;
 }
-ul.list-files li a[href $='.mp3'] {
+.list-files li a[href $='.mp3'] {
 	background:url(modulos/6.01.lists_files/img/mp3.png) no-repeat scroll left center;
 }
-ul.list-files li:nth-child(even) a {
+.list-files li:nth-child(even) a {
 background-color:#f9f9f9;
 }
-ul.list-files li a:hover {
+.list-files li a:hover {
 	background-color:#f5f5f5;
 }
 /*@6.01.lists_files*/
 
 
 /*@6.02.lists_category*/
-ul.list-category {
+.list-category {
 	display:block;
 	margin: 0 0 20px 0;
 	padding:0;
 }
-ul.list-category li {
+.list-category li {
 	display:block;
 	padding:0;
 	margin:0 1% 1% 0;
 	float:left;
 }
-ul.list-category li a {
+.list-category li a {
 	display:block;
 	padding:5px 10px;
 	font-size:12px;
@@ -1657,7 +1657,7 @@ ul.list-category li a {
 	-moz-transition:all 0.5s ease;
 	-webkit-transition:all 0.5s ease;
 }
-ul.list-category li a:hover {
+.list-category li a:hover {
 	background:#ddd;
 	border:1px solid #bbb;
 	transition:all 0.5s ease;
@@ -1669,26 +1669,26 @@ ul.list-category li a:hover {
 
 
 /*@6.03.lists_articles*/
-ul.list-articles	{
+.list-articles	{
 	overflow:hidden;
 }
-ul.list-articles li	{
+.list-articles li	{
 	list-style-type:none;
 }
-ul.list-articles .thumb {
+.list-articles .thumb {
 	margin:0 10px 0 0;
 }
-ul.list-articles h3	{
+.list-articles h3	{
 	margin:0 0 10px 5px;
 	padding:0;
 	line-height:1;
 }
-ul.list-articles .date	{
+.list-articles .date	{
 	margin:0 0 5px; 
 	padding:0;
 	font-size:0.7em;
 }
-ul.list-articles .subtitle	{
+.list-articles .subtitle	{
 	margin:0;
 	font-size:0.8em;
 	line-height:1;
@@ -1703,6 +1703,9 @@ ul.list-articles .subtitle	{
 }
 /*@6.03.lists_articles*/
 
+/*@7.01.modal_window*/
+#dialog {display: none;}
+/*@7.01.modal_window*/
 
 
 /* -----------------------------------*/

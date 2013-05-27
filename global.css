@@ -1717,15 +1717,19 @@ background-color:#f9f9f9;
 label {
 	display:block;
 	margin:5px 0px 10px 0px;
+	max-width: 100%;
 	color:#999;
+	background-color: red;
 }
 label span {
 	display:block;
 	color:#999;
+	background-color: blue;
 }
 .input-text {
 	border:solid 1px #c1dfda;
 	color:#999999;
+	max-width: 100%;
 }
 .input-text:focus {
 	border:solid 1px #82bfb5;
@@ -1752,6 +1756,7 @@ label span {
 
 /*@8.04.forms_textarea*/
 .input-textarea {
+	max-width: 100%;
 	border:solid 1px #c1dfda;
 	color:#999999;
 }
